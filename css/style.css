@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/naturalblack.png");
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+  border-bottom: 3px solid #cccccc /*Main header border color*/;
+  background-color: #ffffff /*Main header background color*/;
+}
+
+.maincontentfield:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.maincontentfield {
+  border: solid 2px #dddddd /*Main content border color*/;
+  width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff /*Main content background color*/;
+  margin-top: 20px;
+}
+
+.textboxleft {
+  float: left;
+  background-color: #4aaaa5 /*TEAL*/;
+  color: #777777 /*Regular font color*/;
+}
+
+.aboutmebox {
+  float: left;
+  width: 650px;
+  margin-right: 48px;
+  padding: 30px;
+}
+
+.aboutme {
+  color: #4aaaa5 /*TEAL*/;
+}
+
+.connectwithmebox {
+  float: left;
+}
+
+.connectwithmebox {
+  border: solid 1px green;
+}
+
+.connectwithme {
+  color: #4aaaa5 /*TEAL*/;
+  border-bottom: 1px solid gray;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.navmenu {
+  float: right;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  clear: both;
+  width: 100%;
+  border-top: 5px solid teal;
+  background-color: #666666 /*Footer background color*/;
+  text-align: center;
+}
