@@ -11,7 +11,12 @@
 
 .socialicons {
   text-align: center;
+  float: left;
   padding: 10px;
+}
+
+.fa	{
+	margin: 20px;
 }
 
 .fa:hover {
