@@ -22,3 +22,11 @@
 .fa:hover {
     opacity: 0.7;
 }
+
+h1 {
+	margin-top: -15px;
+}
+
+.footer {
+	float: right;
+}
